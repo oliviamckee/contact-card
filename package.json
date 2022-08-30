@@ -1,7 +1,7 @@
 {
   "name": "contact-card",
   "version": "1.0.0",
-  "description": "moduel 19 asynchronous content",
+  "description": "module 19 asynchronous content",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,10 @@
     "install": "concurrently \"cd client && npm install\" \"cd server && npm install\" ",
     "client": "cd client && npm start"
   },
+  "engines": {
+    "node": "16.15.1"
+  },
+  "heroku-prebuild": "npm install --dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oliviamckee/contact-card.git"
