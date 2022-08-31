@@ -15,7 +15,6 @@
   "engines": {
     "node": "16.15.1"
   },
-  "heroku-prebuild": "npm install --dev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oliviamckee/contact-card.git"
